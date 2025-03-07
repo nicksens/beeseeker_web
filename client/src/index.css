@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
+
+/* Custom class names */
+
+.rich-text {  
+    font-size: 15px;  
+    color: #7A7B7D;  
+}  
+
+.rich-text p {  
+    margin: 15px 0; /* Top and bottom margin for paragraphs */  
+}  
+
+.rich-text h1 {  
+    font-size: 36px;  
+    font-weight: 800;  
+    color: #252525;  
+    margin: 20px 0; /* Larger top and bottom margin for spacing */  
+}  
+
+.rich-text h2 {  
+    font-size: 22px;  
+    font-weight: 700;  
+    color: #252525;  
+    margin: 18px 0; /* Slightly smaller margin */  
+}  
+
+.rich-text h3 {  
+    font-size: 18px;  
+    font-weight: 600;  
+    color: #333333;  
+    margin: 16px 0; /* Consistent margin for hierarchy */  
+}  
+
+.rich-text h4 {  
+    font-size: 16px;  
+    font-weight: 500;  
+    color: #444444;  
+    margin: 14px 0; /* Slightly smaller margin */  
+}  
+
+.rich-text h5 {  
+    font-size: 14px;  
+    font-weight: 400;  
+    color: #555555;  
+    margin: 12px 0; /* Smaller margin for subheadings */  
+}  
+
+.rich-text h6 {  
+    font-size: 12px;  
+    font-weight: 400;  
+    color: #666666;  
+    margin: 10px 0; /* Small margin for the smallest heading */  
+}  
+
+.rich-text ol {  
+    margin: 10px 0 10px 30px; /* Small top and bottom margin, left indentation */  
+    list-style-type: decimal;  
+}  
+
+.rich-text ul {  
+    margin: 10px 0 10px 30px; /* Small top and bottom margin, left indentation */  
+    list-style-type: disc;  
+}  
+
+.rich-text li {  
+    margin-bottom: 8px; /* Spacing between list items */  
+}  
+
+.rich-text strong {  
+    font-weight: 700; /* Bold text styling */  
+}  
